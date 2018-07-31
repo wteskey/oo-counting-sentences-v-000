@@ -17,7 +17,7 @@ class String
 # split into an array without included (., or ?) and then count the sentences. 
 
   def count_sentences
-    split = self.split(/[.!?]/)
+    split = self.split(/[.!?]\s/)
    binding.pry 
    split.count 
 end
